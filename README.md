@@ -234,6 +234,8 @@ In addition to creating the **project users and groups**, the Windows instanceâ€
 
 These tools allow administrators to easily **view, manage, and troubleshoot** the users, groups, and directory settings directly from the Windows server itself. This is particularly useful for environments where **hybrid identity management** is required, supporting both **Windows and Linux clients**.
 
+![windows](windows.png)
+
 ---
 
 ### Linux Instance
@@ -245,6 +247,8 @@ The Linux instance is configured to allow **password-based SSH access** using th
 - **Administrators:** Users who are members of the `linux-admins` group automatically receive **`sudo` privileges**, allowing them to perform administrative tasks on the Linux server.
 
 This setup ensures that **administrative access** is restricted to only authorized users, while standard users have **limited access**, aligning with common **role-based access control (RBAC)** best practices.
+
+![linux](linux.png)
 
 ---
 
