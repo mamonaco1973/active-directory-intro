@@ -8,6 +8,7 @@ In this new series, we’ll deploy **Active Directory** across the three major c
    - **Google Managed Microsoft AD** in Google Cloud
 - Configuring secure networking (VPCs, VNets, and subnets) to support domain connectivity.
 - Joining both **Linux** and **Windows** servers to the AD domain.
+- Configuring **SSSD** ([System Security Services Daemon](https://sssd.io/)) to authenticate Active Directory users on Linux.
 - Managing domain-joined servers, including creating Organizational Units (OUs), and managing users and groups.
 - Storing **administrator credentials** securely using the appropriate secrets management service:
    - **AWS Secrets Manager** in AWS
@@ -204,7 +205,7 @@ As part of this project, when the Windows instance boots and successfully joins 
 
 ### Understanding `uidNumber` and `gidNumber` for Linux Integration
 
-The **`uidNumber`** (User ID) and **`gidNumber`** (Group ID) attributes are critical when integrating **Active Directory** with **Linux systems**, particularly in environments where **SSSD** (System Security Services Daemon) or similar services are used for identity management. These attributes allow Linux hosts to recognize and map Active Directory users and groups into the **POSIX** (Portable Operating System Interface) user and group model.
+The **`uidNumber`** (User ID) and **`gidNumber`** (Group ID) attributes are critical when integrating **Active Directory** with **Linux systems**, particularly in environments where **SSSD** ([System Security Services Daemon](https://sssd.io/)) or similar services are used for identity management. These attributes allow Linux hosts to recognize and map Active Directory users and groups into the **POSIX** (Portable Operating System Interface) user and group model.
 
 ### Why It Matters
 - **Linux Compatibility:** Linux expects every user and group to have a numeric ID (`uid`/`gid`). Active Directory, by default, does not assign these automatically. Setting `uidNumber` and `gidNumber` ensures Linux systems can properly identify users and groups when performing operations like file ownership, process ownership, and permissions enforcement.
