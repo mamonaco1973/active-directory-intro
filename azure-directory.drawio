@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-28" value="" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;labelBackgroundColor=none;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-730" width="1040" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-29" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-677.5" width="830" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-30" value="Azure Cloud - US Central Region" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=17;image=img/lib/azure2/other/Azure_A.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-770" width="31.82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-35" value="Virtual Network - ad-vnet (10.0.0.0/23)" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=17;image=img/lib/azure2/networking/Virtual_Networks.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="102.82" y="-713" width="40" height="23.88" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-36" value="" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-630" width="320" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-42" value="aadds-subnet (10.0.0.128/25)" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;labelBackgroundColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-660" width="33.4" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-43" value="" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="481.81999999999994" y="-630" width="420" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="M7SeO1mPTdzSNuAZCHN5-45" value="vm-subnet (10.0.0.0/25)" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="481.81999999999994" y="-660" width="33.4" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-1" value="mcloud.mikecloud.com&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_Domain_Services.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-550" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-2" value="mcloud.mikecloud.com&lt;div&gt;DC1&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/domain_controller.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-413" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-3" value="mcloud.mikecloud.com&lt;div&gt;DC2&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/domain_controller.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-413" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-7" value="win-ad-instance" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-550" width="70" height="64.4" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-8" value="linux-ad-instance&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656.82" y="-350" width="70" height="64.4" as="geometry" />
+        </mxCell>
+        <mxCell id="-MAp2PhC2MX8vbxwuHtW-9" value="key vault&lt;div&gt;account&amp;nbsp;&lt;/div&gt;&lt;div&gt;credentials&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-460" width="68" height="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
