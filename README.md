@@ -3,7 +3,7 @@
 In this new series, we’ll deploy **Active Directory** across the three major cloud platforms: **AWS**, **Azure**, and **Google Cloud**. You’ll gain hands-on experience with:
 
 - Setting up **cloud-managed Active Directory**:
-   - **AWS Managed Microsoft AD** in AWS
+   - **AWS Directory Service** in AWS
    - **Entra Domain Services** `(aka ADDS)` in Azure
    - **Google Managed Microsoft AD** in Google Cloud
 - Configuring secure networking (VPCs, VNets, and subnets) to support domain connectivity.
@@ -59,7 +59,7 @@ This **division of responsibility** — provider handles the platform, customer 
 
 ## Feature Comparison: Managed Active Directory Services
 
-| **Feature**                            | **AWS Managed Microsoft AD**         | **Microsoft Entra Domain Services**  | **Google Managed Microsoft AD**     |
+| **Feature**                            | **AWS Directory Service**         | **Microsoft Entra Domain Services**  | **Google Managed Microsoft AD**     |
 |----------------------------------------|--------------------------------------|-------------------------------------|------------------------------------|
 | **Service Type**                      | Fully managed Windows AD            | Fully managed Windows AD            | Fully managed Windows AD           |
 | **Backup Management**                  | Automatic by AWS                     | Automatic by Microsoft               | Automatic by Google                |
@@ -77,7 +77,7 @@ This **division of responsibility** — provider handles the platform, customer 
 ## AWS Active Directory Solution Summary
 
 ### Service Used
-**AWS Managed Microsoft AD** provides a fully managed Active Directory service within your **VPC**, allowing you to run directory-aware workloads without having to deploy and manage your own domain controllers.
+**AWS Directory Service** provides a fully managed Active Directory service within your **VPC**, allowing you to run directory-aware workloads without having to deploy and manage your own domain controllers.
 
 ### Key Components
 - **VPC and Subnets:** AD deployed across multiple Availability Zones for redundancy.
@@ -90,7 +90,7 @@ This **division of responsibility** — provider handles the platform, customer 
 
 ### Retrieving Initial Admin Credentials
 
-Once **AWS Managed Microsoft AD** is provisioned, AWS automatically creates the **`Admin`** user account within the directory. This account has **Domain Admin** privileges, allowing you to perform administrative tasks like creating Organizational Units (OUs), managing Group Policy, and adding users. You can set the Admin password directly in the console and directly in the terraform. In this project we store the **`Admin`** credentials in the `admin_ad_credentials` secret.
+Once your **AWS Directory Service** instance is provisioned, AWS automatically creates the **`Admin`** user account within the directory. This account has **Domain Admin** privileges, allowing you to perform administrative tasks like creating Organizational Units (OUs), managing Group Policy, and adding users. You can set the Admin password directly in the console and directly in the terraform. In this project we store the **`Admin`** credentials in the `admin_ad_credentials` secret.
 
 
 ### Key Advantages
