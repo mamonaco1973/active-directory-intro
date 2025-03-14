@@ -29,7 +29,7 @@ This series focuses on **PaaS (Platform-as-a-Service)** offerings for Active Dir
    - [Azure Entra Domain Services](https://youtu.be/XqRJsGLBOfc)
    - [GitHub Project](https://github.com/mamonaco1973/azure-directory/)
 4. GCP Solution
-   - [GCP Managed Active Directory]()
+   - [GCP Managed Active Directory](https://youtu.be/gwn_KkiQ99s)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-directory/)
 
 ## Comparing Managed Active Directory Services: Azure, AWS, and GCP
