@@ -23,7 +23,7 @@ This series focuses on **PaaS (Platform-as-a-Service)** offerings for Active Dir
 
 1. [Deploying Active Directory in the Cloud](https://youtu.be/H5lKJPJBL5s)
 2. AWS Solution
-   - [AWS Directory Service](TBD)
+   - [AWS Directory Service](https://youtu.be/1lnSxfFmGPY)
    - [GitHub Project](https://github.com/mamonaco1973/aws-active-directory/)
 3. Azure Solution
    - [Azure Entra Domain Services](TBD)
