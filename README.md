@@ -26,7 +26,7 @@ This series focuses on **PaaS (Platform-as-a-Service)** offerings for Active Dir
    - [AWS Directory Service](https://youtu.be/1lnSxfFmGPY)
    - [GitHub Project](https://github.com/mamonaco1973/aws-active-directory/)
 3. Azure Solution
-   - [Azure Entra Domain Services](TBD)
+   - [Azure Entra Domain Services](https://youtu.be/XqRJsGLBOfc)
    - [GitHub Project](https://github.com/mamonaco1973/azure-directory/)
 4. GCP Solution
    - [GCP Managed Active Directory]()
